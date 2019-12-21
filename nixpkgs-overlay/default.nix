@@ -36,8 +36,8 @@ let
                 ];
             installPhase = 
                 ''
-                    mkdir -p $out
-                    cp -av $src/* $out
+                    mkdir -p $out/bin
+                    cp -av $src/* $out/bin
                 '';
             meta = 
                 with stdenv.lib;

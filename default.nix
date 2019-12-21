@@ -10,7 +10,7 @@ in
 
         shellHook = ''
             export TERM=xterm-256color
-            alias haxe=${haxe}/haxe
-            alias haxelib=${haxe}/haxelib
+            # alias haxe=${haxe}/haxe
+            # alias haxelib=${haxe}/haxelib
         '';
     }
