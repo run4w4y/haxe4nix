@@ -44,7 +44,7 @@ let
                 {
                     description = "Haxe 4.0.5";
                     homepage = https://haxe.org/;
-                    license = licenses.gnu;
+                    license = licenses.gpl2Plus;
                     maintainers = with stdenv.lib.maintainers; [ ];
                     platforms = [ "x86_64-linux" ];
                 };
